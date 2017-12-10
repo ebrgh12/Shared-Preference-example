@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
          pref= context.getSharedPreferences(PREF_NAME, PRIVATE_MODE); // 0 - for private mode
          editor = pref.edit();
-
+            retreiveData();
         count.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
